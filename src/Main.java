@@ -10,6 +10,6 @@ public class Main {
         Book book1 = new Book("Война и мир", author1, 1767);
         System.out.println("Название: " + book1.getName() + "; Автор: " + book1.getAuthor() + "; Год издания: " + book1.getPublisherDate());
         book1.setPublisherDate(1867);
-        System.out.println("Дата публикации через сеттер = " + book.getPublisherDate());
+        System.out.println("Дата публикации через сеттер = " + book1.getPublisherDate());
     }
 }
